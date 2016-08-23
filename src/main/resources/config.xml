@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <!-- 数据库 -->
+    <entry key="db.driver">com.mysql.jdbc.Driver</entry>
+    <entry key="db.loginTimeout">10</entry>
+    <entry key="db.url">jdbc:mysql://127.0.0.1:3306/fastdev</entry>
+    <entry key="db.username">fastdev</entry>
+    <entry key="db.password">fastdev</entry>
+
+    <!-- 短信 -->
+    <entry key="sms.machine.class">cn.easybuild.core.sms.YFSSmsMachine</entry>
+    <entry key="sms.machine.username">500014</entry>
+    <entry key="sms.machine.password">3G6KZP</entry>
+    <entry key="sms.machine.extno">106575320754004</entry>
+    <entry key="sms.machine.uri.send">http://123.57.173.186:7822/sms?action=send</entry>
+    <entry key="sms.machine.uri.overage">http://123.57.173.186:7822/sms?action=overage</entry>
+    <entry key="verify.code.sms.limitation">10</entry>
+    <entry key="verify.code.email.limitation">10</entry>
+
+    <!-- 邮件 -->
+    <entry key="mail.smtp">smtp.exmail.qq.com</entry>
+    <entry key="mail.smtp.auth">true</entry>
+    <entry key="mail.username">noreply@corplus.net</entry>
+    <entry key="mail.password">NorEply2051</entry>
+
+    <!-- 推送  -->
+    <entry key="jpush.android.app.key">b6a7774912dfd7af4d3c33aa</entry>
+    <entry key="jpush.android.master.secret">c7782116d54a693ea6cf8e2d</entry>
+    <entry key="jpush.ios.app.key">815ae35b364126d214d8aa09</entry>
+    <entry key="jpush.ios.master.secret">5262dff848ae2e5843f06ca2</entry>
+    <entry key="is.test.environment">true</entry>
+
+    <!-- ftp文件存储 -->
+    <entry key="ftp.host">192.168.1.123</entry>
+    <entry key="ftp.port">21</entry>
+    <entry key="ftp.usename">ftp</entry>
+    <entry key="ftp.password">sineduftp2015</entry>
+
+</properties>
